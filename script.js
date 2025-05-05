@@ -60,12 +60,19 @@ window.addEventListener('load', () => {
             rederQuestion.textContent = 'Thank you for your answers!';
         }
         
+        
     })
 
     const allButtons = document.querySelectorAll('.btn');
     allButtons.forEach(button => {
         button.addEventListener('click', () => {
-            button.style.backgroundColor = 'green';
+            if(button.style.backgroundColor === 'green'){
+                button.style.backgroundColor = '';
+                button.style.padding = '';
+            }else{
+                button.style.backgroundColor = 'green';
+                button.style.padding = '1em';
+            }
         })
     })
 
