@@ -1,0 +1,29 @@
+main{
+    margin: 3em auto;
+    width: 500px;
+
+}
+
+#question{
+    text-align: center;
+    font-weight: 800;
+    font-size: 2em;
+    color: rgb(90, 81, 81);
+}
+
+.choose{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 3em;
+}
+
+.btn{
+    margin: 10px;
+    border: none;
+    background-color: rgb(111, 109, 246);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-weight: 300;
+}
